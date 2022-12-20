@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+
 :root {
   --primary: #386bb7;
   --secondary: #1d4d89;
@@ -24,7 +25,7 @@ a:hover {
 
 p {
   font-size: 18px;
-  color: #57595e;
+  color: #b0b0b0;
 }
 
 .blog-post-thumb {
@@ -49,7 +50,7 @@ p {
 }
 
 .blog-post-thumb h3 {
-  margin-bottom: 20px !important;
+  margin-bottom: 20px;
 }
 
 .blog-post-thumb h3 a {
@@ -294,7 +295,7 @@ body {
 
 .center-heading .section-title {
   font-weight: 500;
-  font-size: 28px;
+  font-size: 35px;
   color: #1e1e1e;
   letter-spacing: 1.75px;
   line-height: 38px;
@@ -320,7 +321,7 @@ body {
 }
 
 .center-text p {
-  font-size: 15px;
+  font-size: 20px;
   color: #777;
   margin-bottom: 30px;
 }
@@ -346,86 +347,86 @@ body {
 }
 
 .padding-bottom-top-60 {
-  padding-top: 60px !important;
-  padding-bottom: 60px !important;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .padding-bottom-80 {
-  padding-bottom: 80px !important;
+  padding-bottom: 80px;
 }
 
 .padding-bottom-100 {
-  padding-bottom: 100px !important;
+  padding-bottom: 100px;
 }
 
 .border-bottom {
-  border-bottom: 1px solid #eee !important;
+  border-bottom: 1px solid #eee;
 }
 
 .mbottom-30 {
-  margin-bottom: 30px !important;
+  margin-bottom: 30px;
 }
 
 .align-self-center {
-  -ms-flex-item-align: center !important;
-  align-self: center !important;
+  -ms-flex-item-align: center;
+  align-self: center;
 }
 
 .align-self-bottom {
-  -ms-flex-item-align: flex-end !important;
-  align-self: flex-end !important;
+  -ms-flex-item-align: flex-end;
+  align-self: flex-end;
 }
 
 .padding-bottom-0 {
-  padding-bottom: 0px !important;
+  padding-bottom: 0px;
 }
 
 .padding-top-0 {
-  padding-top: 0px !important;
+  padding-top: 0px;
 }
 
 .padding-top-80 {
-  padding-top: 80px !important;
+  padding-top: 80px;
 }
 
 .padding-top-70 {
-  padding-top: 70px !important;
+  padding-top: 70px;
 }
 
 .padding-top-20 {
-  padding-top: 20px !important;
+  padding-top: 20px;
 }
 
 .margin-bottom-0 {
-  margin-bottom: 0px !important;
+  margin-bottom: 0px;
 }
 
 .margin-bottom-30 {
-  margin-bottom: 30px !important;
+  margin-bottom: 30px;
 }
 
 .margin-top-30 {
-  margin-top: 30px !important;
+  margin-top: 30px;
 }
 
 .margin-top-15 {
-  margin-top: 15px !important;
+  margin-top: 15px;
 }
 
 .margin-bottom-45 {
-  margin-bottom: 45px !important;
+  margin-bottom: 45px;
 }
 
 .margin-bottom-20 {
-  margin-bottom: 20px !important;
+  margin-bottom: 20px;
 }
 
 .margin-bottom-60 {
-  margin-bottom: 60px !important;
+  margin-bottom: 60px;
 }
 
 .margin-bottom-100 {
-  margin-bottom: 100px !important;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 991px) {
@@ -551,9 +552,9 @@ button.main-button:hover {
   }
 
   .parallax .content {
-    position: relative !important;
-    top: 0% !important;
-    transform: perspective(1px) translateY(0%) !important;
+    position: relative;
+    top: 0%;
+    transform: perspective(1px) translateY(0%);
   }
 
   .counter {
@@ -562,9 +563,9 @@ button.main-button:hover {
   }
 
   .counter .content {
-    position: relative !important;
-    top: 0% !important;
-    transform: perspective(1px) translateY(0%) !important;
+    position: relative;
+    top: 0%;
+    transform: perspective(1px) translateY(0%);
   }
 
   .counter .content .count-item {
@@ -605,7 +606,7 @@ button.main-button:hover {
   color: #767678;
 }
 
-.fa-magnifying-glass-chart {
+.fa-magnifying-glass-chart, .fa-file, .fa-scale-balanced, .fa-file-contract, .fa-id-card, .fa-phone {
   font-size: 50px;
   padding: 15px;
   color: #767678;
@@ -643,17 +644,19 @@ button.main-button:hover {
 .btn.btn-outline-primary:hover,
 .btn.btn-secondary,
 .btn.btn-outline-secondary:hover {
-  color: #FFFFFF;
+  color: #4a4a4a;
+  background-color: #efefef;
+  border-color: #fff;
 }
 
-.btn.btn-primary:hover {
-  background: var(--secondary);
-  border-color: var(--secondary);
+.btn.btn-primary:hover { 
+  background-color: #f2f2f2;
+  border-color: #fff;
 }
 
 .btn.btn-secondary:hover {
-  background: var(--primary);
-  border-color: var(--primary);
+  background: #ffffff;
+  color: rgb(49, 49, 49);
 }
 
 .btn-square {
@@ -689,7 +692,8 @@ button.main-button:hover {
 }
 
 .navbar .navbar-brand img {
-  max-height: 120px;
+  max-height: 80px;
+  border-radius: 3px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -799,7 +803,7 @@ button.main-button:hover {
 
 @media (min-width: 992px) {
   .container.facts {
-    max-width: 100% !important;
+    max-width: 100%;
   }
 
   .container.facts .facts-text {
@@ -832,12 +836,12 @@ button.main-button:hover {
 }
 
 .container.facts .facts-text {
-  background: linear-gradient(rgba(1, 95, 201, .9), rgba(1, 95, 201, .9)), url(../img/carousel-1.jpg) center right no-repeat;
+  background: linear-gradient(rgba(58, 125, 201, 0.9), rgba(1, 95, 201, .9)), url(../img/salvador2.jpg) center right no-repeat;
   background-size: cover;
 }
 
 .container.facts .facts-counter {
-  background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../img/carousel-2.jpg) center right no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../img/salvador3.jpg) center right no-repeat;
   background-size: cover;
 }
 
@@ -1006,6 +1010,7 @@ button.main-button:hover {
 
 /*** Footer ***/
 .footer {
+  background-color: #0C214F;
   color: #A7A8B4;
 }
 
@@ -1022,7 +1027,7 @@ button.main-button:hover {
 
 .footer .btn.btn-link::before {
   position: relative;
-  content: "\f105";
+  content: "\f105"; 
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: #A7A8B4;
@@ -1052,9 +1057,9 @@ button.main-button:hover {
 }
 
 .footer .copyright a {
-  color: var(--secondary);
+  color: #A7A8B4;
 }
 
 .footer .copyright a:hover {
-  color: #FFFFFF;
+  color: #A7A8B4;
 }
