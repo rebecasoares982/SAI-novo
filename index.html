@@ -9,10 +9,10 @@
   <meta content="" name="description" />
 
   <link href="img/prefeitura-salvador.png" rel="icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
   <link href="css/bootstrap.min.css" rel="stylesheet" />
 
@@ -46,38 +46,68 @@
   </div>
 
   <br>
+ 
+  <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+    <div class="container3">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/prefeitura.png" class="logo img-fluid" alt="prefeitura">
+            <br>
+            <span>
+               Prefeitura de Salvador 
+            </span>
+        </a>
 
-  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-    <a href="index.html" class="navbar-brand d-flex align-items-center">
-      <h1 class="m-0">
-        <img class="img-fluid" src="img/prefeitura.png" alt="" />
-      </h1>
-    </a>
-    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
-        <a href="index.html" class="nav-item nav-link active">Início</a>
-        <div class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Acesso à informação</a>
-          <div class="dropdown-menu bg-light border-0 m-0">
-            <a href="#" class="dropdown-item">Encontre no portal</a>
-            <a href="#" class="dropdown-item">Dados municipais</a>
-            <a href="#" class="dropdown-item">Cartas de serviços</a>
-          </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link click-scroll active" href="#top">Início</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link click-scroll dropdown-toggle inactive" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Acesso à informação</a>
+
+                  <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Encontre no portal</a></li>
+
+                      <li><a class="dropdown-item" href="#">Dados municipais</a></li>
+
+                      <li><a class="dropdown-item" href="#">Cartas de serviços</a></li>
+                  </ul>
+              </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll inactive" href="#">Cidade</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link click-scroll inactive" href="#">Notícias</a>
+              </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll inactive" href="#">Diário Oficial</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll inactive" href="#">Transparência</a>
+                </li>
+
+              
+                <li class="nav-item">
+                    <a class="nav-link click-scroll inactive" href="#">Ouvidoria</a>
+                </li>
+
+                <li class="nav-item ms-3">
+                    <a class="btn px-3 bg-primary text-white d-none d-lg-block" href="#">Área Administrativa</a>
+                </li>
+            </ul>
         </div>
-        <a href="#" class="nav-item nav-link">Cidade</a>
-        <a href="#" class="nav-item nav-link">Diário Oficial</a>
-        <a href="#" class="nav-item nav-link">Transparência</a>
-        <a href="#" class="nav-item nav-link">Notícias</a>
-        <a href="#" class="nav-item nav-link">Ouvidoria</a>
-
-      </div>
     </div>
-    <a href="" class="btn px-3 bg-primary text-white d-none d-lg-block">Área Administrativa</a>
-  </nav>
-
+</nav>
+ 
   <br> <br>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -364,7 +394,8 @@
                 <a href="#">Melhoria do transporte público</a>
               </h3>
               <div class="text">
-                O governo estadual anunciou um investimento em infraestrutura para melhorar o transporte público em Salvador.
+                O governo estadual anunciou um investimento em infraestrutura para melhorar o transporte público em
+                Salvador.
               </div>
               <a href="#" class="main-button">Saiba mais</a>
             </div>
