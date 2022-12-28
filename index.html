@@ -41,7 +41,7 @@
     </div>
   </div>
 
-  <br>
+  <br> 
 
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
@@ -50,10 +50,11 @@
           <a class="navbar-brand" href="#">
             <img src="/img/logo-salvador.png" alt="Logo" width="120" height="100"
               class="d-inline-block">
-          </a>
-        </div>
-        <h3 class="m-2">Prefeitura de Salvador</h3>
-      </nav>
+          </a> </div>
+          <h3 >Prefeitura de</h3>
+<br>
+          <h1>Salvador</h1>
+ 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -176,12 +177,13 @@
 
   <br> <br>
 
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="img/salvador3.jpg" class="d-block w-100" alt="Imagem 1">
@@ -193,14 +195,14 @@
         <img src="img/salvador2.jpg" class="d-block w-100" alt="Imagem 3">
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Próximo</span>
-    </a>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
   <br> <br>
