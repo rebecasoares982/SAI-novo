@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,600&display=swap');
 
+.container-fluid {
+  background-color: #2B5D96;
+  color: #fff;
+}
+
+#navbarLightDropdownMenuLink {
+  background-color: #2B5D96;
+}
+
+.carousel-control-prev {
+  padding-left: 70px;
+}
+
+.carousel-control-next {
+  padding-right: 70px;
+}
+
 .nav {
   display: -webkit-box;
   display: -webkit-flex;
@@ -628,7 +645,7 @@ a:hover {
 
 p {
   font-size: 18px;
-  color: #b0b0b0;
+  color: #ebebeb;
 }
 
 .blog-post-thumb {
@@ -846,11 +863,6 @@ ul {
   margin-bottom: 0px;
 }
 
-/* 
----------------------------------------------
-global styles
---------------------------------------------- 
-*/
 html,
 body {
   background: #fff;
@@ -1230,8 +1242,8 @@ button.main-button:hover {
 }
 
 .fa-caret-down {
-  font-size: 10px; 
-  color: #0766e2;
+  font-size: 15px; 
+  color: #ffffff;
 }
 
  
@@ -1298,8 +1310,8 @@ button.main-button:hover {
 }
  
 .carousel-inner {
-  width: 90%;
-  height: 500px;
+  width: 85%;
+  height: 550px;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -1345,7 +1357,7 @@ button.main-button:hover {
 
 @media (min-width: 992px) {
   .container.facts {
-    max-width: 100%;
+    max-width: 85%;
   }
 
   .container.facts .facts-text {
@@ -1558,7 +1570,7 @@ button.main-button:hover {
   margin-bottom: 5px;
   padding: 0;
   text-align: left;
-  color: #A7A8B4;
+  color: #ebebeb;
   font-weight: normal;
   text-transform: capitalize;
   transition: .3s;
@@ -1584,8 +1596,7 @@ button.main-button:hover {
   border: 1px solid#A7A8B4;
 }
 
-.footer .btn.btn-square:hover {
-  color: var(--secondary);
+.footer .btn.btn-square:hover { 
   border-color: var(--light);
 }
 
