@@ -22,32 +22,42 @@
   <link href="css/style.css" rel="stylesheet" />
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-
-  <div class="container-fluid text-white-50 py-2 px-0 d-none d-lg-block">
-    <div class="row gx-0 align-items-center">
-      <div class="col-lg-7 px-5 text-start">
-
-      </div>
-      <div class="col-lg-4 ps-6 text-end" style="margin-left: 13px">
-        <div class="h-100 d-inline-flex align-items-center">
-          <a class="text-dark-50 ms-4" href=""><i class="fab fa-facebook-f"></i></a> 
-          <a class="text-white-50 ms-4" href=""><i class="fab fa-instagram"></i></a>
-          <a class="text-white-50 ms-4" href=""><i class="fab fa-linkedin"></i></a>
-          <a class="text-white-50 ms-4" href=""><i class="fab fa-youtube"></i></a>
-        </div>
-      </div>
+<body id="top">
+  <div class="wrapper row0">
+    <div id="topbar" class="hoc clear">
+      <ul class="nospace align-items-center">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        <li>
+          <section class="caixa-search">
+            <input class="caixa-texto" type="text" name="" placeholder="Pesquisar...">
+            <a class="botao-search" href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </section>
+        </li>
+      </ul>
     </div>
   </div>
 
-  <nav class="navbar navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo-prefeitura.png" alt="">
-        <h3>Prefeitura de Salvador</h3>
-      </a>
-    </div>
-  </nav>
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <section>
+        <div> </div>
+
+        <div>
+          <h3 id="logo"><img src="img/brasão.jpg" alt="">
+            <br>
+            Prefeitura de Salvador
+          </h3>
+        </div>
+
+        <div> </div>
+      </section>
+    </header>
+  </div>
 
   <nav class="navbar custom-navbar navbar-expand-md navbar-light bg-light text-light">
     <div class="container">
@@ -105,8 +115,9 @@
         </ul>
 
         <li class="nav-item dropdown" style="margin-left: 40px">
-          <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false"> Área Administrativa <i class="fa-solid fa-caret-down"></i>
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Área Administrativa <i
+              class="fa-solid fa-caret-down"></i>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarLightDropdownMenuLink">
             <br>
@@ -121,7 +132,7 @@
                   <a href="yellow" class="selector-color-yellow"></a>
                   <a href="pink" class="selector-color-pink"></a>
                 </div>
-    
+
                 <style>
                   .selector-color-options {
                     right: 20px;
@@ -129,7 +140,7 @@
                     position: relative;
                     z-index: 9;
                   }
-    
+
                   .selector-color-options a {
                     width: 40px;
                     height: 40px;
@@ -138,27 +149,27 @@
                     display: inline-block;
                     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
                   }
-    
+
                   .selector-color-default {
                     background: #545454;
                   }
-    
+
                   .selector-color-blue {
                     background: #265d96;
                   }
-    
+
                   .selector-color-green {
                     background: #015d0d;
                   }
-    
+
                   .selector-color-red {
                     background: #960909;
                   }
-    
+
                   .selector-color-yellow {
                     background: #ebaf3d;
                   }
-    
+
                   .selector-color-pink {
                     background: #af0347;
                   }
@@ -166,12 +177,12 @@
             </li>
           </ul>
       </div>
-      </div>
+    </div>
     </div>
   </nav>
-  
+
   <br> <br>
- 
+
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -502,7 +513,7 @@
           <h5 class="text-light mb-4">Redes Sociais</h5>
           <p>Siga-nos e fique por dentro das notícias</p>
           <div class="position-relative mx-auto" style="max-width: 400px">
-            <div class="d-flex pt-2"> 
+            <div class="d-flex pt-2">
               <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
               <a class="btn btn-square me-1" href=""><i class="fab fa-instagram"></i></a>
               <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
