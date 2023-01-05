@@ -605,24 +605,35 @@ body {
 }
 
 
-h1,
-h2,
+h1 {
+
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #5e5e5e;
+}
+
 h4 {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #6c6c6c;
 }
 
-h5 {
-  font-size: 25px;
-  color: #343434;
-}
+
 
 h3 {
   font-size: 18px;
   margin-top: 0px;
   margin-bottom: 0px;
   color: var(--gray);
+}
+
+h5 {
+  font-size: 25px;
+  color: #343434;
 }
 
 h6 {
@@ -1029,7 +1040,7 @@ button.main-button:hover {
 }
 
 .fa-clipboard-list {
-  font-size: 40px;
+  font-size: 35px;
   color: #fff;
 }
 
@@ -1201,8 +1212,8 @@ button.main-button:hover {
 }
 
 .service-item .service-icon {
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1344,7 +1355,6 @@ button.main-button:hover {
 .testimonial-carousel .owl-nav .owl-next:hover {
   background: var(--secondary);
 }
-
 
 /*** Footer ***/
 .footer {
