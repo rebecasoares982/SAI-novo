@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,600&display=swap');
 
+.container4 {
+  background-color: #2B5D96;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 50%;
+  text-align: center;
+}
+
 .container5 {
   background-color: #2B5D96;
   height: 12px;
@@ -1002,7 +1011,7 @@ button.main-button:hover {
 }
 
 /*icones */
-.fa-map-location-dot {
+.fa-map-location-dot, .fa-cloud-sun, .fa-people-group {
   font-size: 45px;
   padding: 15px;
   color: var(--gray);
@@ -1043,6 +1052,7 @@ button.main-button:hover {
   font-size: 35px;
   color: #fff;
 }
+/* */
 
 #spinner {
   opacity: 0;
