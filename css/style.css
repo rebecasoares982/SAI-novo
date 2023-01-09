@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,600&display=swap');
 
+/* Diário Oficial */
+
+.single {
+background-color: rgb(237, 237, 237);
+color: #000000;
+
+}
+
+
+/* */
+
+
 .container4 {
   background-color: #2B5D96;
   width: 150px;
